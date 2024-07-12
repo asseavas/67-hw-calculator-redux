@@ -26,9 +26,20 @@
   font-size: 18px;
 }
 
-.buttons {
+.buttons-container {
+  display: flex;
+}
+
+.main-buttons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.operator-buttons {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -37,5 +48,7 @@ button {
   padding: 10px;
   font-size: 18px;
   cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }

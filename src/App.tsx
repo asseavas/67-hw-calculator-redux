@@ -1,10 +1,10 @@
 import './App.css';
-import Calculator from './containers/Calculator';
+import CalculatorContainer from './containers/CalculatorContainer';
 
 const App = () => {
   return (
     <>
-      <Calculator />
+      <CalculatorContainer />
     </>
   );
 };
